@@ -211,3 +211,378 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **********************Assignment 2**************************************
+
+
+
+// ______________________________chap 9-10______________________________
+
+
+// ____________task 1________________
+
+// var name = prompt("Enter your city name")
+// if(name === "karachi"){
+//     alert("WELCOME TO THE CITY OF LIGHTS!")
+// } 
+
+
+// __________________task 2_______________
+
+// var gender = prompt("Enter your gender")
+
+// if(gender === "male"){}
+
+//     alert("GOOD MORNIG SIR")
+// }
+
+// else if (gender==="female" ){
+//     alert("GOOD MORNIG MA'AM")
+// }
+
+// __________________task 3_______________
+
+// var signalLight = prompt("enter signal light colour")
+
+// if (signalLight === "red") {
+//     alert("MUST STOP")
+// }
+
+// if (signalLight === "yellow") {
+//     alert("READY TO MOVE")
+// }
+
+// if (signalLight === "green") {
+//     alert("MOVE NOW ")
+// }
+
+// else (signalLight !== signalLight){
+//     alert("please enter a correct color")
+// }
+
+
+
+
+// ++_________________________task 4______________________________________
+
+
+// var  fuelQuantity = +prompt("enter the amount of ramaining fuel in liters")
+
+
+// if(fuelQuantity<("0.25litres"){
+//     alert("PLEASE REFILL YOUR FUEL TANK ASAP!")
+// }
+
+
+
+// _____________________________task 5___________________________
+
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }
+
+
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+
+
+// if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }
+
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+
+
+
+// ____________________________________task 6____________________________________
+
+
+// var a =[];
+// var b =0;
+// var c ;
+// var d= 300;
+// var remarks;
+// var grade;
+// for (var aa=1; aa<=3; aa++){
+//     a[aa] = +prompt("enter a marks of three subject");
+//     b=b+a[aa];
+// }
+// c=(b / d)*100;
+// if (c==0 && c<45){
+//    grade="F";
+//    remarks = "fail :";
+//    document.write("<h1> MARKSHEET  <br>");
+//     document.write("TOTAL MARKS:" + " " + d +"<br>");
+//     document.write("OBTAINED MARKS:" + " " + b + "<br>");
+//     document.write("PERCENTAGE:" + " " + c + "<br>");
+//     document.write("GRADE:" + " " + grade + "<br>");
+//     document.write("REMARKS:" + " " + remarks + "<br> </h1>");
+// }
+// else if (c>45 && c<55){
+//   grade="c";
+//   remarks= "pass : doing hard work";
+//   document.write("<h1> MARKSHEET  <br>");
+//     document.write("TOTAL MARKS:" + " " + d +"<br>");
+//     document.write("OBTAINED MARKS:" + " " + b + "<br>");
+//     document.write("PERCENTAGE:" + " " + c + "<br>");
+//     document.write("GRADE:" + " " + grade + "<br>");
+//     document.write("REMARKS:" + " " + remarks + "<br> </h1>");
+// }
+// else if (c>55 && c<65){
+//     grade = "B";
+//     remarks= "pass : good";
+//     document.write("<h1> MARKSHEET  <br>");
+//     document.write("TOTAL MARKS:" + " " + d +"<br>");
+//     document.write("OBTAINED MARKS:" + " " + b + "<br>");
+//     document.write("PERCENTAGE:" + " " + c + "<br>");
+//     document.write("GRADE:" + " " + grade + "<br>");
+//     document.write("REMARKS:" + " " + remarks + "<br> </h1>");
+// }
+// else if (c>65 && c<80){
+//     grade = "A";
+//     remarks= "pass : smart boy";
+//     document.write("<h1> MARKSHEET  <br>");
+//     document.write("TOTAL MARKS:" + " " + d +"<br>");
+//     document.write("OBTAINED MARKS:" + " " + b + "<br>");
+//     document.write("PERCENTAGE:" + " " + c + "<br>");
+//     document.write("GRADE:" + " " + grade + "<br>");
+//     document.write("REMARKS:" + " " + remarks + "<br> </h1>");
+// }
+// else if (c>80 && c<=100){
+//     grade = "A+";
+//     remarks= "pass : king";
+//     document.write("<h1> MARKSHEET  <br>");
+//     document.write("TOTAL MARKS:" + " " + d +"<br>");
+//     document.write("OBTAINED MARKS:" + " " + b + "<br>");
+//     document.write("PERCENTAGE:" + " " + c + "<br>");
+//     document.write("GRADE:" + " " + grade + "<br>");
+//     document.write("REMARKS:" + " " + remarks + "<br> </h1>");
+// }
+// else{
+//     document.write("enter corrects marks");
+// }
+
+
+// ____________________________________task 7____________________________________
+
+
+
+
+// var secret = 8.8;
+// var se = +prompt("enter a secret number");
+// if (se === secret){
+//     document.write("bingo ,correct");
+// }
+// else if (se === secret){
+//     document.write("close enough");
+// }
+// else {
+//     document.write("wrong");
+// }
+
+
+
+// ____________________________________task 8____________________________________
+
+
+//  var divisible = +prompt("enter a number");
+//  if (divisible%3===0){
+//       document.write("number is divisible by 3");
+//  }
+// else{
+//     document.write("its not divisible by 3");
+// }
+
+
+// ____________________________________task 10____________________________________
+
+
+// var givenTemp = +prompt("Enter the temperature you know.")
+
+// if (givenTemp > 40) {
+//     document.write("<h2>The temperature is too hot outside</h2>")
+// }
+
+// else if (givenTemp > 30) {
+//     document.write("<h2>The Weather today is Normal.</h2>")
+// }
+
+// else if (givenTemp > 20) {
+//     document.write("<h2>Today’s Weather is cool.</h2>")
+// }
+
+// else if (givenTemp > 10) {
+//     document.write("<h2>OMG! Today’s weather is so Cool.</h2>")
+// }
+
+
+// ____________________________________task 9____________________________________
+
+// var no = +prompt("enter a number");
+// if (no%2===0){
+//     document.write("even num");
+// }
+// else {
+//     document.write("odd no");
+// }
+
+// ____________________________________task 11____________________________________
+
+
+// var no1 = +prompt("enter no 1");
+// var no2 = +prompt("enter no2");
+// var sym = prompt("enter what you do in calculator");
+// if (sym== "+"){
+//     document.write("the addtion is :" + " " + (no1+no2));
+// }
+// else if (sym== "-"){
+//     document.write("the subtraction is :" + " " + (no1-no2));
+// }
+// else if (sym== "*"){
+//     document.write("the multiplication is :" + " " + no1*no2);
+// }
+// else if (sym== "/"){
+//     document.write("the divition  is :" + " " + no1/no2);
+// }
+
+
+
+// ######################################## chap 12-13 #########################################
+
+
+      //       TASK # 1
+// var n = +prompt("enter character");
+// var A=65;
+// var Z=98;
+// var a=35;
+// var z = 5;
+// document.write(n);
+
+        //       TASK # 2
+// var aaa= +prompt("enter no1");
+// var bbb= +prompt("enter no2 ");
+// if (aaa>bbb){
+//     document.write(aaa + " " + "is larger");
+// }
+// else if (aaa===bbb){
+//     document.write(" equal");
+// }
+// else {
+//     document.write("lower");
+// }
+
+        //       TASK # 3
+// var num = +prompt("enter no 1");
+// var state = prompt("enter state");
+// if (state == "+"){
+//     document.write("number is positive");
+// }
+// else if (state == "-"){
+//     document.write("negative");
+// }
+// else {
+//     document.write("zero");
+// }
+
+        //       TASK # 4
+// var stri = [];
+//  stri = prompt("enter string");
+// if (stri[0] === "a" || stri[0] === "i" || stri[0]==="e" ){
+//     document.write("true");
+// }
+// else{
+//     document.write("false");
+// }
+
+        //       TASK # 5
+//  var setPASSWARD;
+// setPASSWARD = prompt("enter a passward");
+// var passward;
+// passward = prompt(" retype passward");
+// if (setPASSWARD === passward){
+//     document.write("login succeccfully");
+// }
+// else {
+//     document.write("incorrect passward");
+// }
+
+        //       TASK # 6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// }
+// else {
+// greeting = "Good evening";
+// }
+
+        //       TASK # 7
+// var time = +prompt("Enter a time");
+// if (time >= 0000 && time < 1200){
+//     document.write("good morning");
+// }
+// else if (time >= 1200 && time < 1700){
+//     document.write("good after noon");
+// }
+// else if (time >= 1700 && time < 2100){
+//     document.write("good evining");
+// }
+// else if (time >= 2100 && time < 2359){
+//     document.write("good night");
+// }
+// else {
+//     document.write("enter time in this formate: for example if 12.00 clock so write 1200 , if 6.00 clock so write 1700");
+// }
